@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "hit-counter",
+	"version": "${version}",
+	"name": "Hit Counter",
+	"description": "A Minecraft mod that counts hits dealt and taken",
+	"authors": ["ChrisThaBot"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/hit-counter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.christhabot.hit_counter.HitCounter"
+		],
+		"client": [
+			"io.github.christhabot.hit_counter.HitCounterClient"
+		],
+		"modmenu": [
+			"io.github.christhabot.hit_counter.HitCounterModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"hit-counter.mixins.json",
+		"hit-counter.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric": "*",
+		"minecraft": "~1.21.0"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

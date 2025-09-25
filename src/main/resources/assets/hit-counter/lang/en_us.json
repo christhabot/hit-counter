@@ -1,0 +1,65 @@
+{
+  "text.autoconfig.hit_counter.title": "Hit Counter Settings",
+
+  "text.autoconfig.hit_counter.option.onlyPlayers": "Only Count Players",
+  "text.autoconfig.hit_counter.option.onlyPlayers.@Tooltip": "If enabled, the hit counter will only track hits involving players.",
+
+  "text.autoconfig.hit_counter.option.showText": "Show Text",
+  "text.autoconfig.hit_counter.option.showText.@Tooltip": "Display descriptive text next to hit numbers.",
+
+  "text.autoconfig.hit_counter.option.ColorText": "Color Text",
+  "text.autoconfig.hit_counter.option.ColorText.@Tooltip": "Apply text colors to indicate the most recent event: player hit another player, player got hit by another player",
+
+  "text.autoconfig.hit_counter.option.ColorOnBothText": "Color Both Texts",
+  "text.autoconfig.hit_counter.option.ColorOnBothText.@Tooltip": "Apply custom colors to both hit received and hit dealt text.",
+
+  "text.autoconfig.hit_counter.option.disappearAfter": "Disappear After",
+  "text.autoconfig.hit_counter.option.disappearAfter.@Tooltip": "Time in seconds before hit numbers disappear from the screen.",
+
+  "text.autoconfig.hit_counter.option.guiX": "GUI X Position",
+  "text.autoconfig.hit_counter.option.guiX.@Tooltip": "Horizontal position of the hit counter on screen.",
+
+  "text.autoconfig.hit_counter.option.guiY": "GUI Y Position",
+  "text.autoconfig.hit_counter.option.guiY.@Tooltip": "Vertical position of the hit counter on screen.",
+
+  "text.autoconfig.hit_counter.option.defaultHex": "Default Text Color",
+  "text.autoconfig.hit_counter.option.defaultHex.@Tooltip": "Hex color code for the default hit text.",
+
+  "text.autoconfig.hit_counter.option.gotHitHex": "Got Hit Color",
+  "text.autoconfig.hit_counter.option.gotHitHex.@Tooltip": "Hex color code for when you take damage.",
+
+  "text.autoconfig.hit_counter.option.didHitHex": "Did Hit Color",
+  "text.autoconfig.hit_counter.option.didHitHex.@Tooltip": "Hex color code for when you deal damage.",
+
+  "text.autoconfig.hit_counter.option.configA": "Option A",
+  "text.autoconfig.hit_counter.option.configA.@Tooltip": "Choose what Option A displays.",
+  "text.autoconfig.hit_counter.option.configA.HITSTAKEN": "Hits Taken",
+  "text.autoconfig.hit_counter.option.configA.HITSDEALT": "Hits Dealt",
+  "text.autoconfig.hit_counter.option.configA.DAMAGETAKEN": "Damage Taken",
+  "text.autoconfig.hit_counter.option.configA.DAMAGEDEALT": "Damage Dealt",
+  "text.autoconfig.hit_counter.option.configA.NONE": "None",
+
+  "text.autoconfig.hit_counter.option.configB": "Option B",
+  "text.autoconfig.hit_counter.option.configB.@Tooltip": "Choose what Option B displays.",
+  "text.autoconfig.hit_counter.option.configB.HITSTAKEN": "Hits Taken",
+  "text.autoconfig.hit_counter.option.configB.HITSDEALT": "Hits Dealt",
+  "text.autoconfig.hit_counter.option.configB.DAMAGETAKEN": "Damage Taken",
+  "text.autoconfig.hit_counter.option.configB.DAMAGEDEALT": "Damage Dealt",
+  "text.autoconfig.hit_counter.option.configB.NONE": "None",
+
+  "text.autoconfig.hit_counter.option.configC": "Option C",
+  "text.autoconfig.hit_counter.option.configC.@Tooltip": "Choose what Option C displays.",
+  "text.autoconfig.hit_counter.option.configC.HITSTAKEN": "Hits Taken",
+  "text.autoconfig.hit_counter.option.configC.HITSDEALT": "Hits Dealt",
+  "text.autoconfig.hit_counter.option.configC.DAMAGETAKEN": "Damage Taken",
+  "text.autoconfig.hit_counter.option.configC.DAMAGEDEALT": "Damage Dealt",
+  "text.autoconfig.hit_counter.option.configC.NONE": "None",
+
+  "text.autoconfig.hit_counter.option.configD": "Option D",
+  "text.autoconfig.hit_counter.option.configD.@Tooltip": "Choose what Option D displays.",
+  "text.autoconfig.hit_counter.option.configD.HITSTAKEN": "Hits Taken",
+  "text.autoconfig.hit_counter.option.configD.HITSDEALT": "Hits Dealt",
+  "text.autoconfig.hit_counter.option.configD.DAMAGETAKEN": "Damage Taken",
+  "text.autoconfig.hit_counter.option.configD.DAMAGEDEALT": "Damage Dealt",
+  "text.autoconfig.hit_counter.option.configD.NONE": "None"
+}
