@@ -120,7 +120,7 @@ public class HitCounterClient implements ClientModInitializer {
 			}
 			int dealtColor = 0xAAAAAA;
 			int takenColor = 0xAAAAAA;
-			if(HitCounterClient.getConfig().ColorText)
+			if(!HitCounterClient.getConfig().ColorText)
 			{
 				dealtColor = Integer.parseInt(HitCounterClient.getConfig().defaultHex.substring(1), 16);
 				takenColor = Integer.parseInt(HitCounterClient.getConfig().defaultHex.substring(1), 16);

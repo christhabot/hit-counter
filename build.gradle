@@ -22,14 +22,14 @@ loom {
 }
 
 repositories {
-	maven { url = "https:
-	maven { url = uri("https:
-	maven { url = uri("https:
-	maven { name = "Fabric"; url = uri("https:
-	maven { url = uri("https:
-	maven { url = uri("https:
-	maven { url 'https:
-	maven { url 'https:
+	maven { url = "https://maven.isxander.dev/releases" }
+	maven { url = uri("https://modmaven.dev/") }
+	maven { url = uri("https://api.modrinth.com/maven/") }
+	maven { name = "Fabric"; url = uri("https://maven.fabricmc.net/") }
+	maven { url = uri("https://maven.architectury.dev/") }
+	maven { url = uri("https://maven.shedaniel.me/") }
+	maven { url 'https://maven.terraformersmc.com/releases/' }
+	maven { url 'https://cursemaven.com/' }
 	mavenCentral()
 }
 

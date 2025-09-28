@@ -3,10 +3,16 @@
 	"id": "hit-counter",
 	"version": "${version}",
 	"name": "Hit Counter",
-	"description": "A Minecraft mod that counts hits dealt and taken",
-	"authors": ["ChrisThaBot"],
-	"contact": {},
-	"license": "MIT",
+	"description": "Counts the amount of hits and damage you deal and that was dealt to you in a fully customizable UI text field.",
+	"authors": [
+		"ChrisThaBot"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/hitcounter",
+		"sources": "https://github.com/christhabot/hit-counter",
+		"issues": "https://github.com/christhabot/hit-counter/issues"
+	},
+	"license": "CC-BY-NC-ND-4.0",
 	"icon": "assets/hit-counter/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -31,5 +37,12 @@
 	},
 	"suggests": {
 		"modmenu": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/AT7RdgZDj6"
+			}
+		}
 	}
 }
